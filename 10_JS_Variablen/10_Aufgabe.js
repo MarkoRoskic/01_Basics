@@ -1,7 +1,7 @@
 console.log("Hallo");
 console.log("Tolle Sache")
 
-//Variablen
+//Variablen//
 
 let a = 7
 let b = 8
