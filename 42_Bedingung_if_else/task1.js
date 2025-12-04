@@ -1,9 +1,20 @@
-let a = 10
+let number = Math.floor(Math.random()*10);
+console.log(number);
 
-if (a >= 10) {
-    console.log("Die Zahl ist groß")
-} else if (a >= 0) {
-  console.log("Die Zahl ist positiv aber klein")
-} else {
-    console.log("Die Zahl ist negativ")
+if (number < 5) {
+  console.log ("The number is less than 5");
+}else{
+  console.log("The number is bigger than 5");
+}
+
+if (number > 5) {
+  console.log ("The number is greater 5");
+}else{
+  console.log("The number is not greater than 5");
+}
+
+if (number == 5) {
+  console.log ("The number is exactly 5");
+}else{
+  console.log ("The number is not exactly 5");
 }
