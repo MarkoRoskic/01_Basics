@@ -4,7 +4,7 @@ if (trafficLight == "green") {
     console.log("You may go");
 }
 
-if (trafficLight == "yello") {
+if (trafficLight == "yellow") {
     console.log("Caution!");
 }
 
