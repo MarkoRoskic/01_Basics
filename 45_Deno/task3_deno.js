@@ -1,5 +1,5 @@
-let zahl1 = prompt("zahl 1");
-let zahl2 = prompt("zahl 2");
+let zahl1 = Number(prompt("zahl 1"));
+let zahl2 = Number(prompt("zahl 2"));
 let rechenart = prompt("Operatoren [+,-,*,/]");
 
 if (rechenart === "+"){
