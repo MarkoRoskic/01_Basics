@@ -4,4 +4,4 @@ for (let i = 1; i <= 100; i++){
     sum += i;
 }
 
-console.log("Die Summe vn 1 bis 100 ist:", sum);
+console.log("Die Summe von 1 bis 100 ist:", sum);
