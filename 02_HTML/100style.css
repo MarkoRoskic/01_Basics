@@ -12,30 +12,57 @@
   height: 50px;
   padding: 20px;
 }
+
 .logo {
   position: absolute;
   right: 50%;
   color: white;
+  
 }
 
 .menü li {
   display: inline-block;
   padding-left: 60px;
 }
-.rechts li{
+
+.rechts li {
   display: inline-block;
   position: relative;
   right: 70%;
   padding-right: 8;
- top: 20px;
+  top: 20px;
 }
-.bild{
-   height: 20px;
+
+.bild {
+  height: 20px;
   width: 50px;
   filter: brightness(0) invert(1);
+  
 }
-.signin{
+
+.signin {
   position: relative;
   left: 40%;
   bottom: 10px;
 }
+
+.content {
+  height: 100vh;
+  background-image: url('https://www.mercedes-benz.at/content/dam/austria/passengercars/campaigns/taktik-q2-2026/Stage.jpg/1775558101146.jpg?im=Crop,rect=(1438,719,5250,5250);Resize=(800,800)');
+  background-size: cover;
+  background-position: center;
+}
+
+.Party {
+  position: absolute;
+  background-color: red;
+  top: 50%;
+  left: 0;
+  width: 40vw;
+  font-size: 40px;
+  text-align: left;
+  z-index: 1000;
+  
+  }
+  
+  
