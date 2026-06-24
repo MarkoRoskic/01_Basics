@@ -14,7 +14,7 @@ function loadPeople() {
         html += "<div>" + element.firstName + " " + element.lastName + "</div>"
     });
 
-    console.log(html);
+        document.getElementById("content").innerHTML = html;
 
 
 
